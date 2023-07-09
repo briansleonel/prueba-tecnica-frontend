@@ -30,6 +30,13 @@ function App() {
         }
     };
 
+    const restartHandle = () => {
+        setIndexQuestion(-1);
+        setFinish(false);
+        setSelectedAnswer(false);
+        setTotalCorrect(0);
+    };
+
     /**
      * Permite identificar si la respuesta seleccionada por el usuario es correcta
      * @param selected respuesta seleccionada
@@ -60,6 +67,7 @@ function App() {
             <EndQuestionnaire
                 totalCorrect={totalCorrect}
                 totalQuestions={data.length}
+                restartHandle={restartHandle}
             />
         );
 

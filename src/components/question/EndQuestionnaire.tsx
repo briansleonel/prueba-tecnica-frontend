@@ -1,11 +1,13 @@
 interface Props {
     totalQuestions: number;
     totalCorrect: number;
+    restartHandle: () => void;
 }
 
 export default function EndQuestionnaire({
     totalCorrect,
     totalQuestions,
+    restartHandle,
 }: Props) {
     return (
         <>
@@ -17,6 +19,7 @@ export default function EndQuestionnaire({
             <p>
                 Puntaje total: <span>{totalCorrect * 10}</span>
             </p>
+            <button onClick={() => restartHandle()}>Reiniciar</button>
         </>
     );
 }
