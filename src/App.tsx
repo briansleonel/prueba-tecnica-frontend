@@ -4,10 +4,11 @@ import { IQuestion } from "./types/question";
 import QuestionComponent from "./components/question/Question";
 import InformationComponent from "./components/question/Information";
 import EndQuestionnaire from "./components/question/EndQuestionnaire";
+import StartQuestionnaire from "./components/question/StartQuestionnaire";
 
 function App() {
-    const [indexQuestion, setIndexQuestion] = useState(0);
-    const [question, setQuestion] = useState<IQuestion>(data[indexQuestion]);
+    const [indexQuestion, setIndexQuestion] = useState(-1);
+    const [question, setQuestion] = useState<IQuestion>(data[0]);
     const [selectedAnswer, setSelectedAnswer] = useState(false);
     const [correct, setCorrect] = useState(false);
     const [finish, setFinish] = useState(false);
@@ -45,9 +46,14 @@ function App() {
      * Verifico el momento en el que se avanza a la siguiente pregunta
      */
     useEffect(() => {
-        setQuestion(data[indexQuestion]);
-        setSelectedAnswer(false);
+        if (indexQuestion >= 0) {
+            setQuestion(data[indexQuestion]);
+            setSelectedAnswer(false);
+        }
     }, [indexQuestion]);
+
+    if (indexQuestion < 0)
+        return <StartQuestionnaire setIndexQuestion={setIndexQuestion} />;
 
     if (finish)
         return (
