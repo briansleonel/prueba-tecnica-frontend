@@ -1,0 +1,112 @@
+[
+    {
+        "_id": "1",
+        "question": "¿Cuántas cuerdas suele tener un bajo eléctrico?",
+        "options": {
+            "a": "Dos",
+            "b": "Seis",
+            "c": "Tres",
+            "d": "Cuatro"
+        },
+        "correct": "Cuatro"
+    },
+    {
+        "_id": "2",
+        "question": "¿En qué país nació Jorge Luis Borges?",
+        "options": {
+            "a": "Chile",
+            "b": "España",
+            "c": "Perú",
+            "d": "Argentina"
+        },
+        "correct": "Argentina"
+    },
+    {
+        "_id": "3",
+        "question": "¿Qué parte del cuerpo tiene 27 huesos y 35 músculos?",
+        "options": {
+            "a": "Pie",
+            "b": "Craneo",
+            "c": "Columna",
+            "d": "Mano"
+        },
+        "correct": "Mano"
+    },
+    {
+        "_id": "4",
+        "question": "¿Qué órgano es el encargado de fabricar insulina?",
+        "options": {
+            "a": "Apéndice",
+            "b": "Intestino delgado",
+            "c": "Estómago",
+            "d": "Páncreas"
+        },
+        "correct": "Páncreas"
+    },
+    {
+        "_id": "5",
+        "question": "¿Qué es la luna?",
+        "options": {
+            "a": "Un planeta",
+            "b": "Una galaxia",
+            "c": "Ninguna es correcta",
+            "d": "Un satélite"
+        },
+        "correct": "Un satélite"
+    },
+    {
+        "_id": "6",
+        "question": "¿En qué país ganó Alemania su primer mundial de fútbol?",
+        "options": {
+            "a": "Italia",
+            "b": "Alemania",
+            "c": "Brasil",
+            "d": "Suiza"
+        },
+        "correct": "Suiza"
+    },
+    {
+        "_id": "7",
+        "question": "¿Cuál fue la primera película de Disney?",
+        "options": {
+            "a": "Cenicienta",
+            "b": "La bella durmiente",
+            "c": "Ninguna es correcta",
+            "d": "Blancanieves"
+        },
+        "correct": "Blancanieves"
+    },
+    {
+        "_id": "8",
+        "question": "¿En qué año murió Marilyn Monroe?",
+        "options": {
+            "a": "1963",
+            "b": "1960",
+            "c": "1958",
+            "d": "1962"
+        },
+        "correct": "1962"
+    },
+    {
+        "_id": "9",
+        "question": "¿Qué país no tiene costas?",
+        "options": {
+            "a": "Chile",
+            "b": "Perú",
+            "c": "Ninguna es correcta",
+            "d": "Bolivia"
+        },
+        "correct": "Bolivia"
+    },
+    {
+        "_id": "10",
+        "question": "¿Qué civilización antigua tenía faraones como gobernantes?",
+        "options": {
+            "a": "Grecia",
+            "b": "Roma",
+            "c": "Azteca",
+            "d": "Egipto"
+        },
+        "correct": "Egipto"
+    }
+]
