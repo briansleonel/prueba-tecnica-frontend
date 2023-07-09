@@ -5,15 +5,15 @@ import ShowQuestion from "./ShowQuestion";
 interface Props {
     question: IQuestion;
     selectedAnswer: boolean;
-    setCorrect: (state: boolean) => void;
     setSelectedAnswer: (state: boolean) => void;
+    isCorrectAnswer: (selected: string, questionAnswer: string) => void;
 }
 
 export default function QuestionComponent({
     question,
-    setCorrect,
     selectedAnswer,
     setSelectedAnswer,
+    isCorrectAnswer,
 }: Props) {
     /**
      * Evento producido al seleccionar una respuesta
@@ -23,8 +23,10 @@ export default function QuestionComponent({
         if (!selectedAnswer) {
             setSelectedAnswer(true);
             console.log(selected);
+            isCorrectAnswer(selected, question.correct);
+            /*
             if (selected === question.correct) setCorrect(true);
-            else setCorrect(false);
+            else setCorrect(false);*/
         }
     };
 
