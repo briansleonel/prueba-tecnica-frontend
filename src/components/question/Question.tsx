@@ -1,5 +1,6 @@
 import { IQuestion } from "../../types/question";
 import ReplyButton from "../buttons/ReplyButton";
+import Content from "../layout/Content";
 import ShowQuestion from "./ShowQuestion";
 
 interface Props {
@@ -31,7 +32,7 @@ export default function QuestionComponent({
     };
 
     return (
-        <section>
+        <Content>
             <ShowQuestion question={question.question} />
             <ReplyButton
                 option={question.options.a}
@@ -49,6 +50,6 @@ export default function QuestionComponent({
                 option={question.options.d}
                 onSelectAnswer={onSelectAnswer}
             />
-        </section>
+        </Content>
     );
 }

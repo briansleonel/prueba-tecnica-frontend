@@ -1,3 +1,5 @@
+import Content from "../layout/Content";
+
 interface Props {
     totalQuestions: number;
     totalCorrect: number;
@@ -10,7 +12,7 @@ export default function EndQuestionnaire({
     restartHandle,
 }: Props) {
     return (
-        <>
+        <Content>
             <h3>Cuestionario finalizado</h3>
             <p>
                 Respuestas acertadas:{" "}
@@ -20,6 +22,6 @@ export default function EndQuestionnaire({
                 Puntaje total: <span>{totalCorrect * 10}</span>
             </p>
             <button onClick={() => restartHandle()}>Reiniciar</button>
-        </>
+        </Content>
     );
 }

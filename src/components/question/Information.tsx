@@ -1,3 +1,5 @@
+import Content from "../layout/Content";
+
 interface Props {
     correct: boolean;
     nextQuestion: () => void;
@@ -5,11 +7,11 @@ interface Props {
 
 export default function InformationComponent({ correct, nextQuestion }: Props) {
     return (
-        <div>
+        <Content>
             <p>Respuesta {correct ? "correcta" : "incorrecta"}</p>
             <button type="button" onClick={() => nextQuestion()}>
                 Sigiente
             </button>
-        </div>
+        </Content>
     );
 }
