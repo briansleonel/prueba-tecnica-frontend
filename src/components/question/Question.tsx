@@ -32,7 +32,7 @@ export default function QuestionComponent({
     };
 
     return (
-        <Content>
+        <Content className="gap-4">
             <ShowQuestion question={question.question} />
             <ReplyButton
                 option={question.options.a}

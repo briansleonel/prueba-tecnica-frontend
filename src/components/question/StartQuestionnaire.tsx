@@ -1,6 +1,5 @@
 import ButtonIcon from "../buttons/Button";
 import Content from "../layout/Content";
-import { PlayIcon } from "@heroicons/react/24/solid";
 import Title from "../layout/Title";
 import Information from "../layout/Information";
 
@@ -24,7 +23,7 @@ export default function StartQuestionnaire({
                 </Information>
             </div>
             <ButtonIcon onClickFn={() => setIndexQuestion(0)} title="Iniciar">
-                <PlayIcon className="" />
+                iniciar
             </ButtonIcon>
         </Content>
     );
