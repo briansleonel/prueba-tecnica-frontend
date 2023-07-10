@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+const { withAnimations } = require("animated-tailwindcss");
 
+export default withAnimations({
+    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+    theme: {
+        extend: {
+            backgroundImage: {
+                "back": "url('./src/assets/background.svg')",
+            },
+        },
+    },
+    plugins: [],
+});
