@@ -11,7 +11,7 @@ export default function StartQuestionnaire({
     return (
         <Content className="justify-between gap-12">
             <div>
-                <Title className="border-b pb-2" text="cuestionario" />
+                <Title className="border-b pb-2">cuestionario</Title>
                 <Information className="mt-8">
                     Lea atentamente cada pregunta.
                 </Information>

@@ -22,12 +22,10 @@ export default function QuestionComponent({
      */
     const onSelectAnswer = (selected: string) => {
         if (!selectedAnswer) {
+            // indico que el usuario ya ha seleccionado una respuesta
             setSelectedAnswer(true);
-            console.log(selected);
+            // verifico si la respuesta seleccionada es correcta
             isCorrectAnswer(selected, question.correct);
-            /*
-            if (selected === question.correct) setCorrect(true);
-            else setCorrect(false);*/
         }
     };
 

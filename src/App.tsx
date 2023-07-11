@@ -7,11 +7,11 @@ import EndQuestionnaire from "./components/question/EndQuestionnaire";
 import StartQuestionnaire from "./components/question/StartQuestionnaire";
 
 function App() {
-    const [indexQuestion, setIndexQuestion] = useState(-1);
-    const [question, setQuestion] = useState<IQuestion>(data[0]);
-    const [selectedAnswer, setSelectedAnswer] = useState(false);
-    const [correct, setCorrect] = useState(false);
-    const [finish, setFinish] = useState(false);
+    const [indexQuestion, setIndexQuestion] = useState(-1); // indice de la pregunta a mostra
+    const [question, setQuestion] = useState<IQuestion>(data[0]); // pregunta actual a mostrar
+    const [selectedAnswer, setSelectedAnswer] = useState(false); // controlar si el usuario seleccionó una opción
+    const [correct, setCorrect] = useState(false); // controlar si una respuesta es correcta o no
+    const [finish, setFinish] = useState(false); // para controlar si se finalizó el cuestionario
 
     // puntajes
     const [totalCorrect, setTotalCorrect] = useState(0);
@@ -21,15 +21,19 @@ function App() {
      */
     const nextQuestion = () => {
         const newIndex = indexQuestion + 1;
+        // si el nuevo indice es menor al tamaño del array, aún hay preguntas disponibles
         if (newIndex < data.length) {
             setIndexQuestion(indexQuestion + 1);
             setSelectedAnswer(false);
         } else {
-            console.log("Finished");
+            // en caso contrario se finaliza el cuestionario
             setFinish(true);
         }
     };
 
+    /**
+     * Función que permite reestablecer el cuestionario
+     */
     const restartHandle = () => {
         setIndexQuestion(-1);
         setFinish(false);
