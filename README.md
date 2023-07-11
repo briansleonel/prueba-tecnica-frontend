@@ -45,7 +45,7 @@ Podrá ver el proyecto ejecutandose en local, en el puerto 5173:
 
 Al ingresar al host, podrá ver lo siguiente:
 
-(https://drive.google.com/file/d/1twSpgLevHTLndzaYI1QUHQpl-T-6pt4F/view?usp=sharing")
+(https://drive.google.com/file/d/1twSpgLevHTLndzaYI1QUHQpl-T-6pt4F/view?usp=sharing)
 
 ## Testeo manual ⚙️
 
