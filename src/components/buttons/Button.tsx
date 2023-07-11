@@ -1,4 +1,4 @@
-export default function ButtonIcon({
+export default function Button({
     onClickFn,
     children,
     title,
