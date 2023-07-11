@@ -16,7 +16,7 @@ export default function EndQuestionnaire({
     restartHandle,
 }: Props) {
     return (
-        <Content className="justify-between">
+        <Content className="justify-between animate-zoomIn">
             <div className="w-full flex flex-col gap-6">
                 <Title className="border-b pb-2">finalizado</Title>
 

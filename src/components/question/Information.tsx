@@ -10,7 +10,7 @@ interface Props {
 
 export default function InformationComponent({ correct, nextQuestion }: Props) {
     return (
-        <Content className="justify-between gap-6">
+        <Content className="justify-between gap-6 animate-fadeInLeft">
                 <Title className="border-y py-3">
                     Respuesta {correct ? "correcta" : "incorrecta"}
                 </Title>

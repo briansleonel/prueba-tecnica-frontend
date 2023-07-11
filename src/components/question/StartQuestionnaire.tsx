@@ -9,7 +9,7 @@ export default function StartQuestionnaire({
     setIndexQuestion: (state: number) => void;
 }) {
     return (
-        <Content className="justify-between gap-12">
+        <Content className="justify-between gap-12 animate-backInLeft">
             <div>
                 <Title className="border-b pb-2">cuestionario</Title>
                 <InformationItems className="mt-8">

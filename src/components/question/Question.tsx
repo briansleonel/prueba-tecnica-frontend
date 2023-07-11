@@ -30,7 +30,7 @@ export default function QuestionComponent({
     };
 
     return (
-        <Content className="gap-4">
+        <Content className="gap-4 animate-fadeInLeft">
             <ShowQuestion question={question.question} />
             <ReplyButton
                 option={question.options.a}
