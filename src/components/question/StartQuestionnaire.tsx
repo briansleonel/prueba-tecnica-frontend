@@ -1,7 +1,7 @@
 import ButtonIcon from "../buttons/Button";
 import Content from "../layout/Content";
 import Title from "../layout/Title";
-import Information from "../layout/Information";
+import InformationItems from "../layout/InformationItems";
 
 export default function StartQuestionnaire({
     setIndexQuestion,
@@ -12,15 +12,15 @@ export default function StartQuestionnaire({
         <Content className="justify-between gap-12">
             <div>
                 <Title className="border-b pb-2">cuestionario</Title>
-                <Information className="mt-8">
+                <InformationItems className="mt-8">
                     Lea atentamente cada pregunta.
-                </Information>
-                <Information className="mt-2">
+                </InformationItems>
+                <InformationItems className="mt-2">
                     Solo podrá seleccionar una respuesta.
-                </Information>
-                <Information className="mt-2">
+                </InformationItems>
+                <InformationItems className="mt-2">
                     Debe seleccionar una respuesta para avanzar.
-                </Information>
+                </InformationItems>
             </div>
             <ButtonIcon onClickFn={() => setIndexQuestion(0)} title="Iniciar">
                 iniciar

@@ -2,7 +2,7 @@ import { PaperClipIcon } from "@heroicons/react/20/solid";
 import Paragraph from "./Paragraph";
 import React from "react";
 
-export default function Information({
+export default function InformationItems({
     children,
     className,
 }: {
