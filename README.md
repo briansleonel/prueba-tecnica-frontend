@@ -45,7 +45,7 @@ Podrá ver el proyecto ejecutandose en local, en el puerto 5173:
 
 Al ingresar al host, podrá ver lo siguiente:
 
-![Image](https://drive.google.com/file/d/1twSpgLevHTLndzaYI1QUHQpl-T-6pt4F/view?usp=sharing)
+<p align="center"><img width="60%" src="src/assets/readme/cuestionario-main.png"/></p>
 
 ## Testeo manual ⚙️
 
@@ -57,19 +57,32 @@ Para poder iniciar el cuestionario, el usuario deberá presionar el botón
 _**INICIAR**_ que se encuentra en la vista principal de la aplicación. SI no se
 presiona este botón, no se puede dar por empezado el cuestionario.
 
-<p align="center"><img src="https://drive.google.com/file/d/1PNhPJ3MHjrZ1r-hfU_F4IcD6r2rpSfXb/view?usp=sharing"/></p>
+<p align="center"><img width="60%" src="src/assets/readme/cuestionario-start.png"/></p>
 
-### Y las pruebas de estilo de codificación ⌨️
+### Cuestionario en acción
 
-_Explica que verifican estas pruebas y por qué_
+Luego de inciado el cuestionario, se muestra una pregunta a la vez. El usuario
+si o si debe responder la pregunta para poder pasar a la siguiente.
 
-```
-Da un ejemplo
-```
+<p align="center"><img width="60%" src="src/assets/readme/cuestionario-1.png"/></p>
 
-## Despliegue 📦
+El usuario solo podrá seleccionar una opción. Al seleccionar la opción elegida,
+el cuestionario automáticamente cierra esa ventana e informa sobre el estado de
+la respuesta, es decir, si la opción elegida es correcta o incorrecta.
 
-_Agrega notas adicionales sobre como hacer deploy_
+<p align="center"><img width="60%" src="src/assets/readme/cuestionario-2.png"/></p>
+
+En ningún momento se podrá volver atrás una pregunta, simplemente avanzar hacia
+adelante, a través del botón _**CONTINUAR**_ presentado luego de haber elegido
+alguna opción.
+
+Al finalizar con todas las preguntas, se mostrará el resultado. Se evaluó la
+cantidad de preguntas totales que tiene el cuestionario y el total de preguntas
+respondidas de forma correcta, y en base a estos datos se establece el puntaje
+recibido. Y solo podes reiniciar el cuestionario de ser necesario, no volver
+atrás a las preguntas.
+
+<p align="center"><img width="60%" src="src/assets/readme/cuestionario-3.png"/></p>
 
 ## Construido con 🛠️
 
