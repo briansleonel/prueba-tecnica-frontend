@@ -7,7 +7,7 @@ export default withAnimations({
     theme: {
         extend: {
             backgroundImage: {
-                "back": "url('./src/assets/background.svg')",
+                "back": "url('/src/assets/background.svg')",
             },
         },
     },
