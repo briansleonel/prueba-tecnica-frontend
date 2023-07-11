@@ -1,102 +1,102 @@
 [
     {
         "_id": "1",
-        "question": "¿Cuántas cuerdas suele tener un bajo eléctrico?",
+        "question": "¿Cuál fue el primer metal que el hombre empleó?",
         "options": {
-            "a": "Dos",
-            "b": "Seis",
-            "c": "Tres",
-            "d": "Cuatro"
+            "a": "El oro",
+            "b": "La plata",
+            "c": "El hierro",
+            "d": "El cobre"
         },
-        "correct": "Cuatro"
+        "correct": "El cobre"
     },
     {
         "_id": "2",
-        "question": "¿En qué país nació Jorge Luis Borges?",
+        "question": "¿Cómo se llamaban los gobernantes del antiguo Egipto?",
         "options": {
-            "a": "Chile",
-            "b": "España",
-            "c": "Perú",
-            "d": "Argentina"
+            "a": "Reyes",
+            "b": "Basileos",
+            "c": "Alcaldes",
+            "d": "Faraones"
         },
-        "correct": "Argentina"
+        "correct": "Faraones"
     },
     {
         "_id": "3",
-        "question": "¿Qué parte del cuerpo tiene 27 huesos y 35 músculos?",
+        "question": "El periodo en el que aparecieron la agricultura y los asentamientos sedentarios se llama...",
         "options": {
-            "a": "Pie",
-            "b": "Craneo",
-            "c": "Columna",
-            "d": "Mano"
+            "a": "Edad media",
+            "b": "Paleolítico",
+            "c": "Ninguna es correcta",
+            "d": "Neolítico"
         },
-        "correct": "Mano"
+        "correct": "Neolítico"
     },
     {
         "_id": "4",
-        "question": "¿Qué órgano es el encargado de fabricar insulina?",
+        "question": "Los samuráis eran...",
         "options": {
-            "a": "Apéndice",
-            "b": "Intestino delgado",
-            "c": "Estómago",
-            "d": "Páncreas"
+            "a": "Antiguos guerreros persas",
+            "b": "Antiguos guerreros chinos",
+            "c": "Los aliados de los espartanos",
+            "d": "Antiguos guerreros japoneses"
         },
-        "correct": "Páncreas"
+        "correct": "Antiguos guerreros japoneses"
     },
     {
         "_id": "5",
-        "question": "¿Qué es la luna?",
+        "question": "¿Por cuál otro nombre se conoce el Imperio Romano de Oriente?",
         "options": {
-            "a": "Un planeta",
-            "b": "Una galaxia",
+            "a": "Imperio Mongol",
+            "b": "Imperio Otomano",
             "c": "Ninguna es correcta",
-            "d": "Un satélite"
+            "d": "Imperio Bizantino"
         },
-        "correct": "Un satélite"
+        "correct": "Imperio Bizantino"
     },
     {
         "_id": "6",
-        "question": "¿En qué país ganó Alemania su primer mundial de fútbol?",
+        "question": "¿Cuál idioma hablaban los aztecas?",
         "options": {
-            "a": "Italia",
-            "b": "Alemania",
-            "c": "Brasil",
-            "d": "Suiza"
+            "a": "Mapudungun",
+            "b": "Quechua",
+            "c": "Aymara",
+            "d": "Náhuatl"
         },
-        "correct": "Suiza"
+        "correct": "Náhuatl"
     },
     {
         "_id": "7",
-        "question": "¿Cuál fue la primera película de Disney?",
+        "question": "El dios sol en la cultura inca se llamaba...",
         "options": {
-            "a": "Cenicienta",
-            "b": "La bella durmiente",
+            "a": "Quetzalcóatl",
+            "b": "Huitzilopochtli",
             "c": "Ninguna es correcta",
-            "d": "Blancanieves"
+            "d": "Inti"
         },
-        "correct": "Blancanieves"
+        "correct": "Inti"
     },
     {
         "_id": "8",
-        "question": "¿En qué año murió Marilyn Monroe?",
+        "question": "¿Cuándo comenzó la Revolución Francesa?",
         "options": {
-            "a": "1963",
-            "b": "1960",
-            "c": "1958",
-            "d": "1962"
+            "a": "1810",
+            "b": "1914",
+            "c": "1758",
+            "d": "1789"
         },
-        "correct": "1962"
+        "correct": "1789"
     },
     {
         "_id": "9",
-        "question": "¿Qué país no tiene costas?",
+        "question": "¿Cuál evento provocó el inicio de la Segunda Guerra Mundial?",
         "options": {
-            "a": "Chile",
-            "b": "Perú",
+            "a": "El ataque a Fort Sumter",
+            "b": "La batalla de Verdún",
             "c": "Ninguna es correcta",
-            "d": "Bolivia"
+            "d": "La invasión alemana a Polonia"
         },
-        "correct": "Bolivia"
+        "correct": "La invasión alemana a Polonia"
     },
     {
         "_id": "10",
