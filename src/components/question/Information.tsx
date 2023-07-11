@@ -10,17 +10,15 @@ interface Props {
 
 export default function InformationComponent({ correct, nextQuestion }: Props) {
     return (
-        <Content className="justify-between">
-            <div className="w-full mb-6">
+        <Content className="justify-between gap-6">
                 <Title className="border-y py-3">
                     Respuesta {correct ? "correcta" : "incorrecta"}
                 </Title>
                 {correct ? (
-                    <CheckCircleIcon className="w-1/2 text-green-500 mx-auto mt-4" />
+                    <CheckCircleIcon className="w-1/2 md:w-1/3 text-green-500 mx-auto" />
                 ) : (
-                    <XCircleIcon className="w-1/2 text-red-500 mx-auto mt-4" />
+                    <XCircleIcon className="w-1/2 md:w-1/3 text-red-500 mx-auto" />
                 )}
-            </div>
             <ButtonIcon onClickFn={() => nextQuestion()} title="Continuar">
                 Continuar
             </ButtonIcon>
